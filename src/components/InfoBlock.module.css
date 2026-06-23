@@ -1,0 +1,36 @@
+.infoBlock {
+  background-color: #1a3d63;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+.text:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 20px;
+  }
+  .infoBlock {
+    padding: 40px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,73 @@
+.whyUs {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 44px;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  margin-bottom: 32px;
+}
+
+.list li:last-child {
+  margin-bottom: 0;
+}
+
+.list li strong {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a3d63;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.list li p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+  .list li strong {
+    font-size: 20px;
+  }
+  .list li p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 28px;
+  }
+  .list li strong {
+    font-size: 18px;
+  }
+  .list li p {
+    font-size: 16px;
+  }
+}
